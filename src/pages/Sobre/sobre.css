@@ -1,0 +1,26 @@
+.bio {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: justify;
+    background-color: #686AAC;
+    border-radius: 20px;
+    color: white;
+}
+
+.foto-bio {
+    width: 200px;
+    margin-right: 50px;
+}
+
+.bio>div>h2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.bio>div>p {
+
+    margin-top: 30px;
+}
