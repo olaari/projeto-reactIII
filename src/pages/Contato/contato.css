@@ -1,0 +1,29 @@
+.container-contatos {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 80%;
+    align-items: center;
+}
+
+.card-contato {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color: #686AAC;
+    border-radius: 10px;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.card-contato>a {
+    margin: 10px;
+}
+
+.card-contato>img {
+    height: 52px;
+    margin: 0 auto;
+}

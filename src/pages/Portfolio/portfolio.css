@@ -13,7 +13,7 @@
 }
 
 .cartao {
-    width: 700px;
+    width: 720px;
     height: 550px;
     border-radius: 5px;
     background-color: #fff;
@@ -22,8 +22,8 @@
 }
 
 .cartao img {
-    width: 650px;
-    height: 320px;
+    width: 670px;
+    height: 350px;
 }
 
 .skills {
@@ -50,26 +50,30 @@
     border-radius: 4px;
     color: white;
     padding: 8px;
-}
-
-.card h4 {
-    font-weight: 800;
-}
+    text-align: center;
+  }
+  
+  .card h4 {
+    font-weight: 600;
+  }
+  
 
 .enter-repo {
     text-decoration: none;
-    color: #686AAC;
+    color:#686AAC;
     background-color: #fff;
     font-size: 16px;
-    padding: 5px;
+    padding: 6px;
     border-radius: 10px;
+    
 }
 
-.enter-repo:hover {
+.enter-repo:hover{
     text-decoration: underline;
 }
 
 .titulo {
+    padding-top: 0px;
     text-align: center;
     color: #686AAC;
     font-size: 48px;
