@@ -1,0 +1,29 @@
+.container {
+    background-color: #686AAC;
+    color: white;
+    width: 55%;
+    margin: 0 auto 50px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.card-diario {
+    text-align: center;
+    margin: 20px 15%;
+}
+
+.card-diario>h2 {
+    color: white;
+}
+
+.card-diario>img {
+    height: 250px;
+}
+
+.card-diario>p {
+    text-align: justify;
+}
+
+.card-diario+.card-diario {
+    border-top: white solid 2px;
+}

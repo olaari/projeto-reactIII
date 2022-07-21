@@ -13,6 +13,12 @@ function Menu() {
             <li className='item'>
                 <Link className='link' to="/comentarios">Comentários</Link>
             </li>
+            <li className='item'>
+                <Link className='link' to="/diario">Diário</Link>
+            </li>
+            <li className='item'>
+                <Link className='link' to="/contatos">Contatos</Link>
+            </li>
         </ul>
     )
 }
